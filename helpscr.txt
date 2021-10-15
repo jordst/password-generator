@@ -1,0 +1,25 @@
+
+		PGEN - Help screen 
+		------------------
+
+use arguments to enable the use of 
+certain charcter sets in the generated password
+
+Available options: 
+	-a : standard alphabet
+	-A : alphabet in capitals
+	-s : symbols
+	-n : numbers 
+	-h : hexadecimal 
+	-l : followed by the length of desired password 
+	-c : clipboard (xorg)
+
+Your password will be copied to clipboard on Xorg 
+
+Example usage:
+
+To generate a password with numbers and letters with 23 length: 
+	$ pgen -anAl 23
+
+To then send to clipboard
+	$ pgen -hcnal 23
