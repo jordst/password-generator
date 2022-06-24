@@ -32,3 +32,5 @@
 *.app
 
 psg
+psg.exe
+nul
